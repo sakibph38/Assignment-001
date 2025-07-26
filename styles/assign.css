@@ -1,0 +1,115 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.text-primary{
+    color: #4E47FF;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* header */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100vh;
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-size: 34px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+/* banner styles */
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner{
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 158px 267.5px 37px 267.5px;
+}
+
+.banner-content{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.stay-button{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin:37px 365.5px 152px 365.5px;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.banner-content2{
+    max-width: 517px;
+}
+.banner-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.banner-description{
+    font-size: 24px;
+    font-weight:normal;
+    color: #252432;
+}
+.banner-pro-pic{
+    max-width: 403px;
+    border-radius: 48px;
+}
+
+/* productive section */
+
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
